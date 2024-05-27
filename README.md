@@ -4,7 +4,7 @@
 Desenvolvido e feito por mim
 
 
-                               Barbearia Slack
+                                             Barbearia Slack
 ## Sobre
 Novo projeto Barbearia Slack, feito a mão com intuito de desenvolver novas habilidades
 
@@ -36,12 +36,11 @@ https://barbearia-self-alpha.vercel.app/
 Para fazer o deploy desse projeto
 
 ```bash
-  https://github.com/Lucasholt124/Quiz.Perguntas.git
+  https://github.com/Lucasholt124/Barbearia.git
 ```
 
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://portif-lio-master-ec52.vercel.app/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-arag%C3%A3o-a608822a6/)
 [![Instagram](https://img.shields.io/badge/Instagram-1DA1F2?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/lucas_aragaotm/)
 
