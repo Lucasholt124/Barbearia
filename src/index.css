@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+:root {
+  --br-color-bg-primary: #000426;
+  --br-color-bg-secondary: #FFC368;
+  --br-color-bg-tertiary: #FF9F0F;
+  --br-color-font-primary: #929292;
+  --br-color-font-tertiary: #fff;
+  --br-color-font-quaternary: #080D21;
+  --br-color-font-black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  background-color: var(  --br-color-bg-primary);
+}

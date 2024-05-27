@@ -1,0 +1,47 @@
+.dv-retangle {
+  padding: 5px;
+  background-color: var( --br-color-font-primary);
+  border-radius: 0px 0px 8px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 0px 1px var(--br-color-font-tertiary);
+  margin: -24px 68rem 10px 10rem;
+  flex-wrap: wrap;
+}
+.dv-retangle:hover {
+
+  transform: scale(1.1);
+
+}
+
+.dv-retangle h4 {
+  color: var(  --br-color-bg-primary);
+  background-color: var(--br-color-font-primary);
+  margin-left: -11rem;
+  flex-grow:1;
+  flex-basis: 200;
+}
+
+div #id-h4-retangle {
+  margin-left: 15rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: -1rem;
+  margin-bottom: -2rem;
+  color: var( --br-color-font-tertiary);
+  background-color: var( --br-color-font-black);
+  border-radius: 10px;
+  padding: 2px;
+  flex-grow:1 ;
+  flex-basis: 200;
+  flex-wrap: wrap;
+  box-shadow: inset 0px 0px 0px 1px var(--br-color-font-tertiary);
+}
+.dv-retangle div {
+  margin-bottom: 7px;
+  
+}
+

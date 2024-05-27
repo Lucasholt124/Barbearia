@@ -1,0 +1,33 @@
+.dv-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1rem;
+  margin-left: -60px;
+}
+
+.dv-btn button {
+  font-size: 1.2rem;
+  font-family: 'Open Sans';
+  width: 15rem;
+  height: 3rem;
+  border-radius: 10px;
+  background-color: var( --br-color-bg-tertiary);
+  color: var(--br-color-font-black);
+  border: none;
+  cursor: pointer;
+}
+
+.dv-btn button:hover {
+  transform: scale(1.1);
+}
+
+#agendar {
+  background-color: var( --br-color-bg-tertiary);
+}
+
+@media screen and(max-width: 550px) { 
+  .dv-btn button #agendar {
+    display: none;
+  }
+}

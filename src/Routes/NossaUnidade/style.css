@@ -1,0 +1,181 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; 
+  background-color: whitesmoke;
+  margin-top: -60rem;
+  padding: 127px;
+}
+
+footer h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--br-color-bg-primary);
+  background-color: whitesmoke;
+}
+footer div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; 
+  background-color: whitesmoke;
+}
+footer div p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: var(--br-color-font-primary);
+  background-color: whitesmoke;
+  margin-top: -4rem;
+}
+footer div p:hover {
+  transform: scale(1.1);
+}
+
+#dv-logo-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+
+#dv-logo-footer img {
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 1px var(--br-color-font-tertiary);
+}
+#dv-logo-footer img:hover {
+  transform: scale(1.1);
+}
+
+#dv-redes-sociais {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: 3rem;
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+  color: white;
+}
+
+#dv-redes-sociais img {
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: whitesmoke;
+  border : 5px solid var(--br-color-font-tertiary);
+}
+
+#dv-redes-sociais img:hover {
+  transform: scale(1.1);
+}
+
+#dv-redes-sociais #a-redes-sociais1 {
+  background-color: whitesmoke;
+  margin-left: -3rem;
+  margin-top: -24px;
+  color: white;
+}
+#dv-redes-sociais #a-redes-sociais2 {
+  margin-left: -12rem;
+  margin-top: -55px;
+  background-color: whitesmoke;
+  color: white;
+}
+
+#dv-redes-sociais #a-redes-sociais3 {
+  background-color: whitesmoke;
+  margin-left: 5rem;
+  margin-top: -56px;
+  color: white;
+}
+
+@media screen and (max-width: 550px) {
+  /* Ajuste o Retangle para a versão Mobile */
+  footer {
+    margin-top: -60rem;
+    padding: 127px;
+    background-color: whitesmoke;
+    color: white;
+    margin-bottom: 1rem;
+    overflow: hidden;
+  }
+
+  footer h1 {
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  footer div {
+    width: 100%;
+    height: 100%; 
+    background-color: whitesmoke;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+
+  footer div p {
+    font-size: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  #dv-logo-footer {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  #dv-logo-footer img {
+    border-radius: 10px;
+    font-size: 1.5rem;
+  }
+
+  #dv-redes-sociais {
+    margin-top: 1rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  #dv-redes-sociais img {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border : 5px solid var(--br-color-font-tertiary);
+  }
+
+  #dv-redes-sociais #a-redes-sociais1 {
+    background-color: whitesmoke;
+    margin-left: -3rem;
+    margin-top: -24px;
+    color: white;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  #dv-redes-sociais #a-redes-sociais2 {
+    margin-left: -12rem;
+    margin-top: -65px;
+    display: flex;
+    background-color: whitesmoke;
+    color: white;
+  }
+
+  #dv-redes-sociais #a-redes-sociais3 {
+    background-color: whitesmoke;
+    margin-left: 5rem;
+    margin-top: -46px;
+    color: white;
+    display: flex;
+  }
+}

@@ -1,0 +1,176 @@
+
+  main section img {
+    display: block;
+    width: 99%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #id-span h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: -53rem;
+    color: white;
+    background-color: black;
+  }
+
+  .ho-button {
+    margin-top: -7rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  #horario {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    text-align: center;
+    color: var(  --br-color-font-primary);
+  }
+
+  main section p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    color: var(  --br-color-font-primary);
+  }
+
+  main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5rem;
+  }
+
+#id-span-logo-whats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  color: green;
+  position: fixed;
+  margin-left: 90rem;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  
+}
+
+#id-span-logo-whats:hover {
+  background-color: #45a049;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#id-span-logo-whats:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 468px) {
+
+  main section img {
+    display: block;
+    width: 99%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+
+  #id-span h1 {
+    font-size: 1.0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin-top: -17rem;
+    color: white;
+    background-color: black;
+    margin-left: -20px;
+  }
+
+  .ho-button {
+    margin-top: -3rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #horario {
+    font-size: 1.0rem;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0px;
+    text-align: center;
+    color: var(  --br-color-font-primary);
+  }
+
+  main section p {
+    font-size: 0.rem;
+    margin-top: 1rem; 
+    margin-bottom: 1rem;
+    text-align: center;
+    color: var(  --br-color-font-primary);
+  }
+
+  main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5rem;
+  }
+
+  main section img {
+    display: block;
+    width: 99%;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #id-span-logo-whats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 1rem;  
+    font-size: 3.5rem;
+    color: green;
+    position: fixed;
+    margin-left: 18rem;
+    cursor: pointer;
+  }
+
+  #id-span-logo-whats:hover {
+    transform: scale(1.1);
+  }
+
+  #id-span-logo-whats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42rem;
+    margin-bottom: 1rem;
+    font-size: 3.5rem;
+    color: green;
+    position: fixed;
+    margin-left: 18rem;
+    cursor: pointer;
+  }
+}
+
+
+
+  

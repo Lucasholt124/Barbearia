@@ -1,0 +1,132 @@
+#dv-id-servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  margin-top: 55rem;
+  margin-bottom: 10rem;
+  color: white;
+  overflow: hidden;
+}
+
+#dv-id-servicos h1 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--br-color-bg-primary);
+  background-color: white;
+  font-size: 2.5rem;
+
+}
+
+#dv-id-servicos p {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--br-color-font-primary);
+  background-color: white;
+  font-size: 1.5rem;
+}
+
+.dv-servicos1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 0%;
+  height: 0%;
+  background-color: white;
+  margin-top: 5rem;
+  margin-right: 70rem;
+  background-color: white;
+  margin-bottom: 10rem;
+}
+.dv-servicos1:hover {
+  transform: scale(1.1);
+}
+
+#id-retangle-servicos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 0%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-left: 58rem;
+  margin-top: -10px;
+  background-color: white;
+  color: white;
+}
+
+.dv-servicos2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 0%;
+  height: 0%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-right: 114px;
+  margin-top: -39rem;
+  background-color: white;
+  color: white;
+}
+.dv-servicos2:hover {
+  transform: scale(1.1);
+}
+
+.dv-servicos3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 0%;
+  height: 0%;
+  background-color: white;
+  margin-top: 2rem;
+  margin-left: 55rem;
+  margin-top: -29rem;
+  background-color: white;
+  color: white;
+}
+
+.dv-servicos3:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+  /* Ajuste o Retangle para a versão Mobile */
+  #id-retangle-servicos {
+    margin-left: 0;
+    overflow: hidden;
+  }
+
+  #dv-id-servicos {
+    margin-top: 0;
+  }
+
+  #dv-id-servicos h1 {
+    font-size: 1.5rem;
+  }
+
+  #dv-id-servicos p {
+    font-size: 1rem;
+  }
+  .dv-servicos2, .dv-servicos3 {
+    margin-top: -12rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .dv-servicos1 {
+    margin-top: 3rem;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #id-retangle-servicos {
+    margin-top: 1rem;
+  }
+}
